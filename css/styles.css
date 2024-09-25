@@ -2,6 +2,25 @@
   box-sizing: border-box;
 }
 
+nav {
+  display: inline;
+}
+
+h1 {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+
+nav a {
+  color: black;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+  padding: 0;
+
+}
+
 main {
   max-width: 840px;
 }
