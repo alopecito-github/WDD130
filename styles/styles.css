@@ -1,4 +1,12 @@
 /* css file for Web development assignment */
+:root {
+  --heading-background-color: #ddd;
+  --heading-text-color: rgba(0, 0, 0, 0.74);
+  --heading-font: 'Montserrat', Helvetica, sans-serif;
+  --font-size: 1rem;
+  --padding: 1rem;
+  --border: 1px solid #000;
+}
 
 * {
   box-sizing: border-box;
@@ -6,17 +14,21 @@
 
 nav {
   display: inline;
+  background-color: var(--heading-background-color);
+  padding: var(--padding);
 }
 
 h1 {
-  font-size: 1rem;
+  font-family: var(--heading-font);
+  font-size: var(--font-size);
   font-weight: 700;
+  padding: var(--padding);
 }
 
 
 nav a {
   color: black;
-  text-transform: uppercase;
+  text-transform: capitalize;
   margin: 0;
   padding: 0;
   padding: 0;
