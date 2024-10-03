@@ -119,6 +119,10 @@ footer p{
     color: var(--heading-text-color);
 }
 
+.gallery {
+    padding: var(--padding);
+}
+
 .gallery img{
     width: 500px;
     height: auto;
