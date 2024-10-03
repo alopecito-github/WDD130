@@ -1,0 +1,132 @@
+/* css file for Web development assignment */
+:root {
+    --heading-background-color: #f8f8f8;
+    --heading-text-color: #360605;
+    --heading-font: 'Oswald', sans-serif;
+    --font-size: 4rem;
+    --heading-color: #F8F8F8;
+    --padding: 1rem;
+    --section1-background-color: #9AA5AC;
+    --section2-background-color: #360605;
+    --accent1-color: #F8F8F8;
+    --primary-color: #660A0A;
+  }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+h2 {
+    font-size: 3rem;
+    font-family: "Hind Guntur", sans-serif; 
+    font-weight: 300; 
+    font-style: normal; 
+    color: #360605;
+  }
+
+p{
+    font-size: 2rem;
+    font-family: 'Forum', serif;
+}
+
+nav {
+    padding: 1rem;;
+    font-family: "Hind Guntur", sans-serif; 
+    display: inline;
+  }
+
+nav a {
+    text-decoration: none;
+    color: #360605;
+    padding: 1rem;
+}
+
+nav img{
+    max-width: 10%;
+    width: 25rem;
+}
+
+article{
+    position: absolute;
+    background-color: var(--primary-color);
+    top: 40rem;
+    display: flex;
+    width: 85%; /* Set any width you prefer */
+    top:70%;
+    transform: translate(8%, -30%);
+    margin: 0px auto;
+    
+}
+
+article img{
+    padding: 2rem;
+    width: 15%;
+    height: auto;
+    float: right;
+}
+
+article p{
+    color: var(--accent1-color);
+    text-align: center;
+    width: 80%;
+    padding: 4rem;
+}
+
+
+
+footer{
+    background-color: #F8F8F8;
+}
+
+footer p{
+    font-size: 1rem;
+    padding: var(--padding);
+}
+/*class Selectors*/
+
+.hero_img{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero h1 {
+    font-family: var(--heading-font);
+    font-size: var(--font-size);
+    color: #F8F8F8;
+    position: absolute;
+    text-align: center;
+    top: 15rem;
+    background-color: rgba(0, 0, 0, 0.322);  
+    display: block;
+    width: 100%;  
+}
+.sec_1{
+    padding: var(--padding);
+    background-color: var(--primary-color);
+    color: var(--accent1-color);
+    display: block;
+}
+
+.sec_1 h2 {
+    color: var(--accent1-color);
+}
+
+.gallery h2{
+    color: var(--heading-text-color);
+}
+
+.gallery img{
+    width: 500px;
+    height: auto;
+    display: block;
+    padding: var(--padding);
+}
+
+.sociallinks img{
+    padding: 5px;
+    width: 3rem;
+}
