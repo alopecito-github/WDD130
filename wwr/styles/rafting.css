@@ -50,7 +50,7 @@ nav img{
 
 article{
     position: absolute;
-    background-color: var(--primary-color);
+    background-color: rgba(102, 10, 10, 0.795);
     top: 40rem;
     display: flex;
     width: 85%; /* Set any width you prefer */
@@ -61,16 +61,17 @@ article{
 }
 
 article img{
-    padding: 2rem;
-    width: 15%;
+    padding: 3rem;
+    width: 500px;
     height: auto;
     float: right;
+    
 }
 
 article p{
     color: var(--accent1-color);
     text-align: center;
-    width: 80%;
+    /* width: 80%; */
     padding: 4rem;
 }
 
