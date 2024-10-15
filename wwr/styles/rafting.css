@@ -31,21 +31,38 @@ p{
     font-family: 'Forum', serif;
 }
 
+figcaption {
+    font-size: 2rem;
+    font-family: 'Forum', serif;
+}
+
 nav {
-    padding: 1rem;;
+    margin: 1rem auto;
+    padding: 1rem;
     font-family: "Hind Guntur", sans-serif; 
-    display: inline;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    max-width: 1100px;
   }
 
+/* nav div{
+    border: 1px solid #ccc;
+} */
 nav a {
     text-decoration: none;
     color: #360605;
-    padding: 1rem;
+    padding: 1rem; 
+    align-items: center; 
+
+
 }
 
 nav img{
-    max-width: 10%;
-    width: 25rem;
+    width: 10rem;
+    height: auto;
+    
 }
 
 article{
@@ -75,15 +92,30 @@ article p{
     padding: 4rem;
 }
 
-
-
-footer{
+footer {
     background-color: #F8F8F8;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-between;
+    text-align: center;
+
+}
+
+footer nav{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    align-content: space-between;
+    text-align: center;
 }
 
 footer p{
-    font-size: 1rem;
+    font-size: 1.5rem;
     padding: var(--padding);
+    width: 80%;
+
 }
 /*class Selectors*/
 
@@ -94,7 +126,7 @@ footer p{
     height: auto;
 }
 
-.hero h1 {
+.hero figcaption {
     font-family: var(--heading-font);
     font-size: var(--font-size);
     color: #F8F8F8;
@@ -105,30 +137,60 @@ footer p{
     display: block;
     width: 100%;  
 }
-.sec_1{
+
+.sec_1 {
     padding: var(--padding);
     background-color: var(--primary-color);
     color: var(--accent1-color);
-    display: block;
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+    grid-gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+    text-align: center;
+
 }
 
 .sec_1 h2 {
     color: var(--accent1-color);
+    grid-column: 1/4;
+}
+
+.sec_1 img {
+    width: 100%;
+    align-self: center;
+
+}
+
+
+.gallery {
+    padding: var(--padding);
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 40px;
 }
 
 .gallery h2{
     color: var(--heading-text-color);
-}
-
-.gallery {
-    padding: var(--padding);
+    grid-column: 1/6;
+    justify-content: center;
+    text-align: center;
 }
 
 .gallery img{
-    width: 500px;
+    width: 100%;
     height: auto;
-    display: block;
     padding: var(--padding);
+}
+
+.gallery figcaption {
+    text-align: center;
+
+}
+
+.sociallinks{
+    width: 200px;
 }
 
 .sociallinks img{
