@@ -126,7 +126,7 @@ footer p{
     height: auto;
 }
 
-.hero figcaption {
+.hero h1 {
     font-family: var(--heading-font);
     font-size: var(--font-size);
     color: #F8F8F8;
