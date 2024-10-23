@@ -3,7 +3,7 @@
     --heading-background-color: #f8f8f8;
     --heading-text-color: #360605;
     --heading-font: 'Oswald', sans-serif;
-    --font-size: 4rem;
+    --font-size: 3rem;
     --heading-color: #F8F8F8;
     --padding: 1rem;
     --section1-background-color: #9AA5AC;
@@ -19,7 +19,7 @@
   }
 
 h2 {
-    font-size: 3rem;
+    font-size: 2rem;
     font-family: "Hind Guntur", sans-serif; 
     font-weight: 300; 
     font-style: normal; 
@@ -27,7 +27,7 @@ h2 {
   }
 
 p{
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-family: 'Forum', serif;
 }
 
@@ -270,7 +270,7 @@ iframe {
     align-items: center;
     align-content: space-between;
     background-color: var(--primary-color);
-    padding: 5rem;
+    padding: 4rem;
     padding-bottom: 15rem;
     
 }
@@ -283,16 +283,17 @@ iframe {
  }
  .section_3 h2, p{
     color: var(--accent1-color);
+
  }
 
  .our_team-2, .our_team-3 {
-    max-width: 700px;
+    max-width: 400px;
  }
  .our_team-2 img, .our_team-3 img{
     width: 100%;
  }
 .section_4{
-    padding: 200px;
+    padding: 100px;
 }
 
 #contactForm {
